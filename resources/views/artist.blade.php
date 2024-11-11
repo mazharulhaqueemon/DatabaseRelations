@@ -3,7 +3,8 @@
  {{-- {{ $artist}} --}}
 </h1>
 @foreach ($artist as $x )
-<h2> {{ $x->name }} </h2>
+{{-- <h2> {{ $x->name }} </h2> --}}
+{{-- for show artist name , name is a field of artist table  --}}
     
 @endforeach
 
